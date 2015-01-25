@@ -15,7 +15,9 @@ framework:
     templating:      { engines: ['twig'] }
     default_locale:  "%sylius.locale%"
     trusted_proxies: ~
-    session:         ~
+#    session:         ~
+    session:
+        handler_id:                     ~
 
 twig:
     form:
